@@ -1,0 +1,139 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0e0e0e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    background: #1c1c1c;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: #e0e0e0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn{
+    color: cyan;
+}
+
+.navbar-nav .nav-link {
+    color: #cfcfcf;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffae00;
+}
+
+
+.hero-section {
+    background: linear-gradient(45deg, #181818, #282828);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.hero-btn {
+    background: #ffae00;
+    color: #000;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero-btn:hover {
+    background: #d48c00;
+}
+
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.feature-box {
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: #ffae00;
+    margin-bottom: 10px;
+}
+
+
+.pricing {
+    padding: 60px 20px;
+}
+
+.pricing-card {
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 12px !important; 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+
+.card {
+    border-radius: 12px !important;
+    overflow: hidden; 
+}
+
+
+.contact-form {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+
+.footer {
+    background: #181818;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+}
+
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}

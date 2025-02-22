@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutBuddy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient text-light">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">FitBuddy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header class="hero-section text-center d-flex align-items-center justify-content-center vh-100">
+        <div class="container text-white animate-slide-in">
+            <h1 class="display-3">FitBuddy- Your AI Fitness Companion</h1>
+            <p class="lead">Track, Improve, and Achieve Your Fitness Goals with Advanced AI</p>
+            <a href="#features" class="btn btn-lg btn-custom shadow-lg animate-bounce">Explore Features</a>
+        </div>
+    </header>
+
+   
+    <section id="features" class="container my-5 text-center animate-fade-in">
+        <h2 class="section-title animate-slide-up">Why Choose SmartFit?</h2>
+        <div class="row">
+            <div class="col-md-4 feature-box animate-zoom-in">
+                <i class="fas fa-brain feature-icon"></i>
+                <h3>AI-Powered Insights</h3>
+                <p>Get personalized fitness recommendations tailored to your goals.</p>
+            </div>
+            <div class="col-md-4 feature-box animate-zoom-in">
+                <i class="fas fa-clock feature-icon"></i>
+                <h3>24/7 Tracking</h3>
+                <p>Monitor your activities in real-time with deep analytics.</p>
+            </div>
+            <div class="col-md-4 feature-box animate-zoom-in">
+                <i class="fas fa-mobile-alt feature-icon"></i>
+                <h3>Seamless Integration</h3>
+                <p>Works with all major health apps for better connectivity.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="pricing" class="container my-5 text-center animate-fade-in">
+        <h2 class="section-title animate-slide-up">Our Plans</h2>
+        <div class="row">
+            <div class="col-md-4 animate-scale-in">
+                <div class="card pricing-card shadow-lg bg-dark text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic</h5>
+                        <p class="card-text">Free - Basic tracking features</p>
+                        <button class="btn  btn-custom">Get Started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 animate-scale-in">
+                <div class="card pricing-card shadow-lg bg-primary text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Pro</h5>
+                        <p class="card-text">$9.99/month - Advanced analytics</p>
+                        <button class="btn btn-custom">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 animate-scale-in">
+                <div class="card pricing-card shadow-lg bg-secondary text-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Elite</h5>
+                        <p class="card-text">$19.99/month - Full AI coaching</p>
+                        <button class="btn btn-custom">Go Elite</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="container my-5 text-center animate-fade-in">
+        <h2 class="section-title animate-slide-up">Get in Touch</h2>
+        <form id="contactForm" class="w-50 mx-auto animate-slide-in">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+                <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <button type="submit" class="btn btn-custom w-100">Submit</button>
+        </form>
+    </section>
+
+
+    <footer class="text-center py-4 bg-dark mt-5">
+        <p class="mb-0">© 2025 FitBuddy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
